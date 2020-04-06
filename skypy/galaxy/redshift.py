@@ -19,8 +19,8 @@ class smail_gen(stats.rv_continuous):
     The redshift follows the Smail et al. (1994) redshift distribution as
     reported by Amara & Refregier (2007).
 
-    Parameters
-    ----------
+    Parameter
+    ---
     z_median : float or array_like of floats
         Median redshift of the distribution, must be positive.
     alpha : float or array_like of floats
